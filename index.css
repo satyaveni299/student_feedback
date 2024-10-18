@@ -1,0 +1,237 @@
+
+.navbar {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+   
+}
+.feedback-logo {
+    height: 70px;
+    width: 120px;
+    border-radius: 10px;
+}
+.nav-link {
+    transition: background-color 0.3s ease;
+    padding: 10px 15px;
+    font-size: 1rem;
+}
+.nav-link:hover {
+    background-color: lightgray;
+    color: white;
+    border-radius: 5px;
+}
+.container-fluid {
+    margin-top: 10px;
+}
+.nav-item {
+    margin: 15px;
+    font-size: 35px;
+    font-weight: bold;
+   color:#f8f9fa
+}
+.section-home-bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: indigo;
+    color: white;
+    padding-top: 100px;
+}
+.section-home-start-btn {
+    height: 50px;
+    width: 160px;
+    border-width: 0px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+.section-home-start-btn:hover {
+    background-color: palevioletred;
+    color: white;
+}
+.section-home-hr {
+    border: 1px solid white;
+    width: 40%;
+    margin-top: 20px;
+}
+/* .feedback-instruction-section {
+    padding: 50px;
+    background-color: #f8f9fa;
+    text-align: center;
+    margin-top: 80px;
+} */
+.feedback-instruction-container{
+    display :flex;
+    flex-direction:row;
+}
+.feedback-image{
+    height:390px;
+    width:360px;
+    align-self: center;
+    margin-left:120px;
+    border-radius: 10px;
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.tick-mark-img-container{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.tick-mark-image{
+    height:35px;
+    width:35px;
+    margin:10px;
+  margin-right:20px;
+  border-radius: 19px;
+}
+li{
+    list-style-type: none;
+}
+.feedback-instruction-heading2{
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.feedback-instruction-heading3{
+    font-weight:bold;
+}
+.submit-feedback-btn{
+        height:40px;
+        width:140px;
+        border-width: 0px;
+        color:white;
+        background-color: indigo;
+        border-radius: 10px;
+}
+
+
+.feedback-instruction-section {
+padding: 50px;
+background-color: #f8f9fa;
+text-align: center;
+
+}
+.section-feedbackform-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:100vh;
+}
+.input-field{
+    height:34px;
+    width:230px;
+    border-radius: 7px;
+    
+}
+.form-conatiner{
+    border-radius: 10px;
+   
+}
+.feedbackform-outer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.input-img{
+    height:40px;
+    width:50px;
+   
+}
+.input-label{
+    padding-top: 10px;
+    font-weight: bold;
+}
+.input-fields-container{
+    margin:20px;
+}
+.submit-feedback-button{
+    height:40px;
+    width:130px;
+    border-width: 0px;
+    background-color: green;
+    border-radius: 10px;;
+}
+.thanking-section-bg-container{
+    height:100vh;
+    background-color: indigo;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:aliceblue
+}
+.thaking-heading{
+
+}
+.thanking-para{
+    font-size: 25px;
+}
+.explore-btn{
+    height:40px;
+    width:130px;
+    border-width: 0px;
+    background-color:transparent;
+    border-radius: 10px;;
+    color: white;
+    border: 2px solid white;
+}
+.carousel-inner {
+    text-align: center;
+    height:500px;
+    color:white;
+}
+
+.carousel-item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: auto;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    position: static;
+    text-align: center;
+    padding-top: 20px;
+    color:aliceblue;
+    padding-top:100px;
+}
+
+.carousel-caption h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+    color:aliceblue;
+    padding-top:100px;
+}
+
+.carousel-caption p {
+    font-size: 1rem;
+    margin-top: 10px;
+    
+    color:aliceblue;
+}
+
+.carousel-indicators {
+    bottom: -30px;
+}
+
+.container{
+    height:300px;
+    background-color: black;
+    color:aliceblue;
+    padding: 10px;
+}
+#testimonials{
+height:50vh;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 30px;
+    height: 30px;
+    /* Reduce the size of the background icon */
+    border-width: 0px;
+}
