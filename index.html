@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+    <title>SEVAK</title>
+    <style>
+        .navbar {
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            background-color: white;
+           
+        }
+        .feedback-logo {
+            height: 70px;
+            width: 120px;
+            border-radius: 10px;
+        }
+        .nav-link {
+            transition: background-color 0.3s ease;
+            padding: 10px 15px;
+            font-size: 1rem;
+        }
+        .nav-link:hover {
+            background-color: lightgray;
+            color: white;
+            border-radius: 5px;
+        }
+        .container-fluid {
+            margin-top: 10px;
+        }
+        .nav-item {
+            margin: 15px;
+            font-size: 35px;
+            font-weight: bold;
+           color:#f8f9fa
+        }
+        .section-home-bg-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            background-color: indigo;
+            color: white;
+            padding-top: 100px;
+        }
+        .section-home-start-btn {
+            height: 50px;
+            width: 160px;
+            border-width: 0px;
+            border-radius: 10px;
+            transition: background-color 0.3s ease;
+        }
+        .section-home-start-btn:hover {
+            background-color: palevioletred;
+            color: white;
+        }
+        .section-home-hr {
+            border: 1px solid white;
+            width: 40%;
+            margin-top: 20px;
+        }
+        /* .feedback-instruction-section {
+            padding: 50px;
+            background-color: #f8f9fa;
+            text-align: center;
+            margin-top: 80px;
+        } */
+        .feedback-instruction-container{
+            display :flex;
+            flex-direction:row;
+        }
+        .feedback-image{
+            height:390px;
+            width:360px;
+            align-self: center;
+        }
+        .tick-mark-img-container{
+            display:flex;
+            flex-direction:row;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .tick-mark-image{
+            height:35px;
+            width:35px;
+            margin:10px;
+          margin-right:20px;
+        }
+        li{
+            list-style-type: none;
+        }
+        .feedback-instruction-heading2{
+            font-size: 18px;
+            font-family: sans-serif;
+        }
+        .feedback-instruction-heading3{
+            font-weight:bold;
+        }
+        .submit-feedback-btn{
+                height:40px;
+                width:140px;
+                border-width: 0px;
+                color:white;
+                background-color: indigo;
+                border-radius: 10px;
+        }
+
+
+.feedback-instruction-section {
+    padding: 50px;
+    background-color: #f8f9fa;
+    text-align: center;
+    margin-top: 100px;
+}
+
+    </style>
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="https://www.inkansascity.com/wp-content/uploads/2019/11/image-14.png" class="feedback-logo" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="welcome.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#feedback-instruction-section1">Feedback</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#feedback-instruction-section2">Send Feedback</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section id="feedback-instruction-section1" class="feedback-instruction-section">
+            <div class="feedback-instruction-container">
+                <img src="https://th.bing.com/th/id/OIP.f0eXjXdwXMcX-zcxDOTeHQAAAA?rs=1&pid=ImgDetMain" class="feedback-image"/>
+                <div class="feedback-instruction-row">
+                    <div class="col text-center">
+                        <h2 class=" mt-1feedback-instruction-heading1">We Value Your Feedback</h2>
+                        <p5 class="mt-1 feedback-instruction-heading2">Your insights help us improve our services.</p5>
+                        <p class="mt-4 feedback-instruction-heading3">How to Provide Your Feedback:</p>
+                        <ul class="text-left " >
+                            
+                            <li>
+                                <div class="tick-mark-img-container" >
+                                    <img src="https://as1.ftcdn.net/v2/jpg/05/57/80/90/1000_F_557809065_2qqpQ5Ttcd8gVCSHCKJEmIHUceZ3WzYh.jpg" class="tick-mark-image"/>
+                                    <div>
+                                        <strong>Complete All Required Fields:</strong> Ensure all necessary fields are filled accurately.
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="tick-mark-img-container" >
+                                    <img src="https://as1.ftcdn.net/v2/jpg/05/57/80/90/1000_F_557809065_2qqpQ5Ttcd8gVCSHCKJEmIHUceZ3WzYh.jpg" class="tick-mark-image"/>
+                                    <div>
+                                        <strong>Express Your Thoughts:</strong>Share your genuine experiences and feelings about the course.
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="tick-mark-img-container" >
+                                    <img src="https://as1.ftcdn.net/v2/jpg/05/57/80/90/1000_F_557809065_2qqpQ5Ttcd8gVCSHCKJEmIHUceZ3WzYh.jpg" class="tick-mark-image"/>
+                                    <div>
+                                        <strong>Offer Suggestions:</strong> Provide any constructive feedback or suggestions for improvement.
+                                    </div>
+                                </div>
+                            </li>
+                         </ul>
+                        <div class="highlighted-paragraph bg-light p-3 mt-4">
+                            <p>We are committed to continuous improvement. Your feedback is vital in helping us enhance our educational services. By sharing your thoughts, you contribute to the betterment of our courses and facilities, ensuring a more enriching experience for future students.</p>
+                        </div>
+                      <a href="#"> <button class="submit-feedback-btn">Send Feedback</button></a> 
+                    </div>
+                </div>
+            </div>
+        </section>
+      
+        
+        
+        <script src="js/app.js"></script>
+
+   
+</body>
+</html>
